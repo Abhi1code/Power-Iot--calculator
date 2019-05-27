@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Battery Life Calculator</title>
+    <!-- Meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Battery Life Calculator, Run time calculator, Iot battery calculator, power calculator, 
+    Internet of things battery life calculator, smart devices power consumption calculator" />
+
+    <!-- Meta tags -->
+    <!--stylesheets-->
+    <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+    <!--//style sheet end here
+
+	<link href="//fonts.googleapis.com/css?family=Barlow:300,400,500,600" rel="stylesheet">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+</head>
+
+<body style="overflow:hidden;">
+    <h1 class="header-w3ls" style="overflow:-moz-hidden-unscrollable;">
+        Battery Life Calculator</h1>
+    <!--login form-->
+    <div class="hotel-bothside" style="overflow:-moz-hidden-unscrollable;">
+        <form action="#" method="post">
+            <div class="hotel-left-w3ls">
+
+                <div class="main" style="margin-top: 15px;">
+                    <div style="color:aliceblue;margin:13px;">On Time (sec) :</div>
+                    <input type="text" name="on" id="on_time" style="width:200px;height:40px;">
+
+                    <div style="color:aliceblue;margin:13px;">On Current (mA) :</div>
+                    <input type="text" name="current_on" id="on_current" style="width:200px;height:40px;float:right;">
+
+                </div>
+                <div class="main" style="margin-top: 15px;">
+                    <div style="color:aliceblue;margin: 13px;">Off Time (sec) :</div>
+                    <input type="text" name="off" id="off_time" style="width:200px;height:40px;">
+                    <div style="color:aliceblue;margin: 13px;">Off Current (mA) :</div>
+                    <input type="text" name="current_off" id="off_current" style="width:200px;height:40px;float:right;">
+
+                </div>
+                <div class="main" style="margin-top: 15px;">
+                    <div style="color:aliceblue;margin: 13px;">Battery Power (mAh) :</div>
+                    <input type="text" name="battery_power" id="battery_power" style="width:570px;height:40px;float:right;">
+                </div>
+
+                <div class="main" style="margin-top: 15px;">
+                    <div style="color:aliceblue;margin: 13px;">Average Power consumption (mAh) :</div>
+                    <input type="text" name="power_cycle" id="power_cycle" style="width:450px;height:40px;float:right;">
+                </div>
+
+                <div class="main" style="margin-top: 15px;">
+                    <div style="color:aliceblue;margin: 13px;">Run Time (hrs) :</div>
+                    <input type="text" name="battery_life" id="power_hour" style="width:200px;height:40px;float:right;">
+                    <div style="color:aliceblue;margin: 13px;">Run Time (Days) :</div>
+                    <input type="text" name="battery_days" id="power_day" style="width:200px;height:40px;">
+                </div>
+
+            </div>
+        </form>
+
+        <div class="btnn" style="margin-top: 15px;margin:13px;">
+            <button type="submit" id="submit" style="width:805px;">Calculate</button><br>
+        </div>
+        <div class="clear"></div>
+
+    </div>
+
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
