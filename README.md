@@ -1,4 +1,4 @@
-# Power-calculator
+# Power(Iot)-calculator
 Battery Run Time Calculator for Iot devices
 
 This app has two mode of operation:-
